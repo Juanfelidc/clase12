@@ -19,7 +19,6 @@ header {
 .Logo{
     padding: 10px;
     flex-grow: 0.5;
-   
 }
 .caja-busqueda{
     width: 50%;
@@ -37,7 +36,6 @@ header {
 nav{
     font-size: 12px;
     display:none;
-    
 }
 header ul li{
     list-style-type: none;
@@ -69,7 +67,6 @@ header ul{
 .banner{
     width: 100%;
 }
-
 main{
     width: 90%;
     margin: 0 auto;
@@ -80,15 +77,13 @@ main{
 .main-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
 .titulares {
     font-size: 24px;
     text-align: center;
     padding: 10px;
 }
-
 article{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -100,7 +95,6 @@ article:hover{
 .subarticulo{
     border-top: solid 1px #ebebeb;
     padding: 15px;
-    /*display: flex;*/
     position: relative;
 }
 .preciosydescuentos{
@@ -142,28 +136,28 @@ main section article:hover .descripcion{
     transition: transform 1.5s;
  }
  .fa-truck:hover{
-     transform: rotate(-90deg);
+    transform: rotate(-90deg);
  }
-
 h2{
     padding: 15px;
 }
-
+footer{
+    margin-top: 5px;
+    background-color: white;
+}
 .cajas-footer{
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 .logosfooter{
     color: #0e62bd;
     font-size: 2em;
     margin-bottom: 10px;
 }
-.titulosfooter{
-    font-size: 20px;
+.logosfooter:hover{
+    color: #39b54a;
 }
 footer section {
-    padding: 10%;
+    padding: 2%;
 }
 .copyright{
     text-align: left;
@@ -175,8 +169,7 @@ footer section {
     .descripcion{
         display: block;
     }
-    article{
-        
+    article{ 
         box-shadow: 0px 0px 10px 0px #646464;
         max-width: 280px;
     }
@@ -185,7 +178,7 @@ footer section {
         display: block;
         display: flex;
         justify-content: space-between;
-        font-size: 14px;
+        font-size: 12px;
     }
     .burger-menu{
         display: none;
@@ -200,21 +193,23 @@ footer section {
     .compra1{
         font-size: 14px;
     }
-    .control-formulario{
-        text-align: center;
+    .titulosfooter{
+        font-size: 20px;
     }
-
 }
+
 @media (min-width: 769px){
     .div-footer{
         display: flex;
     }
-    
     footer section {
         padding: 1%;
     }
-    .logosfooter:hover{
-        color: #39b54a;
+    nav{
+        font-size: 16px;
+    }
+    article{
+        width: 230px;
     }   
 }
 
@@ -226,14 +221,12 @@ footer section {
     flex-direction: column;
     align-content:center;
     align-items: flex-start;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 .control-formulario{
     width: 100%;
     margin:5px;
-    
-    
+    text-align: center;
 }
 .control{
     padding: 0%;
@@ -256,7 +249,6 @@ footer section {
 }
 .perfil{
     text-align: left;
-    
 }
 
 /*--------------------login---------------------*/
@@ -264,4 +256,6 @@ footer section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
 }
