@@ -1,14 +1,22 @@
 {
-  "name": "clase12",
+  "name": "mercadoliebre",
   "version": "1.0.0",
   "description": "Proyecto Mercado Liebre",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Juan Felipe Diez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanfelidc/clase12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juanfelidc/clase12/issues"
+  },
+  "homepage": "https://github.com/Juanfelidc/clase12#readme"
 }
